@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+    <title>Retrain Web design</title>
+    <link rel="stylesheet" href="style.css">
+    <link <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src =></a>
+        <div class = "nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                <li><a href = "">HOME</a></li>
+                <li><a href = "">ABOUT INTERACT</a></li>
+                <li><a href = "">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>Retrain Workshop</h1>
+    <p>modern ways to learn, for modern times</p>
+    <a href="" class ="hero-btn">JOIN MEETING</a>
+</div>
+</section>
+
+<!-----COURSE----->
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>wide variety of useful skills</p>
+    <div class="row">
+        <div class="courses-col">
+            <h3>Video Editing</h3>
+            <p>It is the key to blending images and sounds to make us feel emotionally connected
+                and something truly there in the film we're watching.
+            </p>
+        </div>
+        <div class="courses-col">
+            <h3>Coding</h3>
+            <p>Coding teaches you important skills such as critical thinking,
+                problem solving and creativity.
+            </p>
+        </div>
+        <div class="courses-col">
+            <h3>Sports</h3>
+            <p> Sports helps people develop characte and to learn social and brain skills such as 
+                resilience, perseverence, connfidence and teamwork.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="show-stars">
+    <h1>Our Show Stars</h1>
+    <p>The ones organising this workshop</p>
+    <div class="row">
+        <div class="show-col">
+            <img src="images/Ajith.jpeg" height="350px" width="180px">
+            <div class="layer">
+                <h3>Ajith R Rao</h3>
+            </div>
+        </div>
+        <div class="show-col">
+            <img src="/images/Nikhil.jpeg" height="350px" width="180px">
+            <div class="layer">
+                <h3>Nikhil Y N</h3>
+            </div>
+        </div>
+        
+        <div class="show-col">
+            <img src="images/Suneetha.jpeg" height="350px" width="180px">
+            <div class="layer">
+                <h3>Suneetha B S</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cta">
+    <h1>Sign in with us right now!!!</h1>
+    <a href="" class="hero-btn">SIGN IN</a>
+</section>
+<section class="footer">
+    <h4>Interact club of NIS</h4>
+    <p>If we do not care about others then who else will.</p>
+</section>
+<!-------JAVASCRIPT ------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
